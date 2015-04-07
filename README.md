@@ -4,11 +4,10 @@ A good place to start examining the code is by reading the java class in simpleh
 Requirements to build the project:
 
 - Java 7 JDK must be installed
-- Maven must be installed. 
-	See: https://maven.apache.org/download.cgi 
-	For Ubuntu, install with apt-get: 
-		http://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/
-		http://www.sysads.co.uk/2014/05/install-apache-maven-3-2-1-ubuntu-14-04/
+- Maven must be installed.
+	* Maven download: https://maven.apache.org/download.cgi
+	* Maven install instructions: https://maven.apache.org/download.cgi#Installation_Instructions
+	* Ubuntu-users can install with apt-get
 
 To build all modules:
 
