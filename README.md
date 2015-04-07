@@ -1,6 +1,7 @@
+####Tip####
 A good place to start reading code is the [Learner class](learning/src/main/java/jar005/simplehunts/algorithm/Learner.java)
 
-Requirements to build the project:
+####Requirements to build the project####
 
 - Java 7 JDK must be installed
 - Maven must be installed.
@@ -8,7 +9,7 @@ Requirements to build the project:
 	* Maven install instructions: https://maven.apache.org/download.cgi#Installation_Instructions
 	* Ubuntu-users can install with apt-get
 
-To build all modules:
+####Building the modules####
 
 - Cd into the `simplehunts` directory
 - Run `mvn package`
