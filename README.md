@@ -10,9 +10,9 @@ Requirements to build the project:
 
 To build all modules:
 
-- Cd into the 'simplehunts' directory
-- Run mvn package
-- Cd into the 'target' directory
+- Cd into the `simplehunts` directory
+- Run `mvn package`
+- Cd into the `target` directory
 - In the directory you will now have 4 executable jar-files
 
 1. Dataset generator for training and evaluation data
