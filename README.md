@@ -15,28 +15,28 @@ To build all modules:
 - Cd into the 'target' directory
 - In the directory you will now have 4 executable jar-files
 
-Markup : 1. Dataset generator for training and evaluation data
+1. Dataset generator for training and evaluation data
 
 	java -jar csvgenerate.jar 20000 0.5 training.csv
 	java -jar csvgenerate.jar 20000 0.5 evaluation.csv
 
-	The first parameter (20000) is for generating 20000 random records.
-	The second parameter means a distribution of 50% true records (matching ME criteria)
-	The third parameter is the output file name
+The first parameter (20000) is for generating 20000 random records.
+The second parameter means a distribution of 50% true records (matching ME criteria)
+The third parameter is the output file name
 
-	2. Learning algorithm (Hunt's algorithm)
+2. Learning algorithm (Hunt's algorithm)
 	
 		java -jar learn.jar training.csv output.json
 	
-	Reads the file training.csv and outputs a JSON-file with the decision tree. 
-	The filename param for JSON is optional.
+Reads the file training.csv and outputs a JSON-file with the decision tree. 
+The filename param for JSON is optional.
 
-	3. Evaluation of accuracy
+3. Evaluation of accuracy
 	
-		java -jar evaluate output.json evaluation.csv
+	java -jar evaluate output.json evaluation.csv
 
-	Reads the decision tree from the JSON-file and uses the evaluation CSV-file for calculating accuracy
+Reads the decision tree from the JSON-file and uses the evaluation CSV-file for calculating accuracy
 
-	4. Using the decision tree for asking questions
+4. Using the decision tree for asking questions
 	
-		java -jar classify.jar output.json
+	java -jar classify.jar output.json
