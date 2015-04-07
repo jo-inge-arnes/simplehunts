@@ -1,5 +1,6 @@
 Code reading tip: 
-A good place to start examining the code is by reading the java class in simplehunts/learning/src/main/java/jar005/simplehunts/algorithm/Learner.class
+
+A good place to start reading code is the [Learner class](learning/src/main/java/jar005/simplehunts/algorithm/Learner.java)
 
 Requirements to build the project:
 
