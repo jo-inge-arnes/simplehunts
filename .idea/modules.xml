@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/classification/classification.iml" filepath="$PROJECT_DIR$/classification/classification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classifier-client/classifier-client.iml" filepath="$PROJECT_DIR$/classifier-client/classifier-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csv-generator/csv-generator.iml" filepath="$PROJECT_DIR$/csv-generator/csv-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/evaluation-client/evaluation-client.iml" filepath="$PROJECT_DIR$/evaluation-client/evaluation-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learner-client/learner-client.iml" filepath="$PROJECT_DIR$/learner-client/learner-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning/learning.iml" filepath="$PROJECT_DIR$/learning/learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplehunts.iml" filepath="$PROJECT_DIR$/simplehunts.iml" />
+    </modules>
+  </component>
+</project>
