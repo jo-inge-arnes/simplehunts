@@ -21,8 +21,8 @@ To build all modules:
 		java -jar csvgenerate.jar 20000 0.5 evaluation.csv
 
 	The first parameter (20000) is for generating 20000 random records.
-	The second parameter means a distribution of 50% true records (matching ME criteria)
-	The third parameter is the output file name
+	The second parameter means a distribution of 50% true records (matching ME criteria).
+	The third parameter is the output file name.
 
 2. Learning algorithm (Hunt's algorithm)
 	
