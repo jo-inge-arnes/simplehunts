@@ -17,7 +17,7 @@ To build all modules:
 - Cd into the 'target' directory
 - In the directory you will now have 4 executable jar-files
 
-1) Dataset generator for training and evaluation data:
+1) Dataset generator for training and evaluation data
 
 	java -jar csvgenerate.jar 20000 0.5 training.csv
 	java -jar csvgenerate.jar 20000 0.5 evaluation.csv
