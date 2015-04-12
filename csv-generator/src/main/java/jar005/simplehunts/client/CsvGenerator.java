@@ -21,20 +21,20 @@ public class CsvGenerator {
         generator.generate(numRecords, criteriaProbability, outFilePath);
     }
 
-    private void generate(int numRecords, double criteriaProbability, String outFilePath) {
+    private void generate(int totalNumRecords, double criteriaProbability, String outFilePath) {
         List<CanadianConsensusCriteriaRecord> records = new ArrayList<>();
 
-        for(int i = 0; i < numRecords; i++) {
-            CanadianConsensusCriteriaRecord record;
+        int numTrueRecords = (int) Math.round(totalNumRecords * criteriaProbability);
+        int i = 0;
 
-            double randomValue = rnd.nextDouble();
+        while(i < numTrueRecords) {
+            records.add(createTrueRecord());
+            i++;
+        }
 
-            if(randomValue < criteriaProbability)
-                record = createTrueRecord();
-            else
-                record = createFalseRecord();
-
-            records.add(record);
+        while(i < totalNumRecords) {
+            records.add(createFalseRecord());
+            i++;
         }
 
         writeRecordsToCsv(outFilePath, records);
@@ -192,10 +192,8 @@ public class CsvGenerator {
             }
         }
 
-        if(numTrueSubCategoriesCriteria_6 < 2)
-            return false;
+        return numTrueSubCategoriesCriteria_6 >= 2;
 
-        return true;
     }
 
     private void setAtLeastTwoCriteria_5(CanadianConsensusCriteriaRecord record) {
