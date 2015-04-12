@@ -15,8 +15,6 @@ public class EvaluationClient {
         if (!validateArgs(args))
             return;
 
-        System.out.println("Welcome to the decision tree evaluator!");
-
         Node root = readJsonTree(args[0]);
 
         if(root == null) {
@@ -31,12 +29,10 @@ public class EvaluationClient {
             return;
         }
 
-        System.out.println(String.format("Number of records in test set: %d", records.size()));
-
         Classifier classifier = new Classifier(root);
         double accuracy = classifier.accuracy(records);
 
-        System.out.println(String.format("Accuracy of classifier: %f", accuracy));
+        System.out.println(accuracy);
     }
 
     private static Node readJsonTree(String fileNamePath) {
@@ -121,7 +117,7 @@ public class EvaluationClient {
             throw new IllegalArgumentException("Neither attributesNames nor stringValues can be empty or null");
 
         if(stringValues.length != attributeNames.length)
-            throw new IllegalArgumentException(String.format("Mismatch between number of attribute names and values"));
+            throw new IllegalArgumentException("Mismatch between number of attribute names and values");
     }
 
     private static boolean validateArgs(String[] args) {

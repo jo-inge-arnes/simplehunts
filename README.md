@@ -34,7 +34,7 @@ A good place to start reading code is the [Learner class](learning/src/main/java
 
 3. __Evaluation of accuracy__
 	
-		java -jar evaluate output.json evaluation.csv
+		java -jar evaluate.jar output.json evaluation.csv
 
 	Reads the decision tree from the JSON-file and uses the evaluation CSV-file for calculating accuracy
 
