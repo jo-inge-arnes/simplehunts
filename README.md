@@ -12,7 +12,7 @@ It reads a CSV-file with training data, and produces a JSON-structure as output.
 The implementation only handles boolean (true/false) values.
 
 #### Tip
-The main method of [Learner Client](learner-client/src/main/java/jar005/simplehunts/client/LearnerClient.java) calls methods on the [Learner class](learning/src/main/java/jar005/simplehunts/algorithm/Learner.java). The main-method of the client in combination with the Learner class, is a good place to start reading to understand the implementation. Note that the class resides in a separate library project, and can easily be used in other Java-applications.
+The main method of [Learner Client](learner-client/src/main/java/jar005/simplehunts/client/LearnerClient.java) calls methods on the [Learner class](learning/src/main/java/jar005/simplehunts/algorithm/Learner.java). The main method of the client in combination with the Learner class, is a good place to start reading to understand the implementation. Note that the class resides in a separate library project, and can easily be used in other Java-applications.
 
 #### Prerequisites for building the project
 
