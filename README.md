@@ -1,11 +1,12 @@
-####A simple implementation of Hunt's Algorithm####
+#### A simple implementation of Hunt's Algorithm
 The Java-projects in this repository were originally written as part of a course assignment, which can be found here:
+
 https://github.com/mr-speak/simplehunts/blob/master/Assignment%202%20-%20Hunt%26%23039%3Bs%20algorithm%20-%20Final%20Version.pdf
 
-####Tip####
+#### Tip
 A good place to start reading code is the [Learner class](learning/src/main/java/jar005/simplehunts/algorithm/Learner.java)
 
-####Requirements to build the project####
+#### Prerequisites for building the project
 
 - Java 7 JDK must be installed
 - Maven must be installed.
@@ -13,7 +14,7 @@ A good place to start reading code is the [Learner class](learning/src/main/java
 	* Maven install instructions: https://maven.apache.org/download.cgi#Installation_Instructions
 	* Ubuntu-users can install with apt-get
 
-####Building the modules####
+#### Building the modules
 
 - Cd into the `simplehunts` directory
 - Run `mvn package`
