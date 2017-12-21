@@ -1,3 +1,7 @@
+####A simple implementation of Hunt's Algorithm####
+The Java-projects in this repository were originally written as part of a course assignment, which can be found here:
+https://github.com/mr-speak/simplehunts/blob/master/Assignment%202%20-%20Hunt%26%23039%3Bs%20algorithm%20-%20Final%20Version.pdf
+
 ####Tip####
 A good place to start reading code is the [Learner class](learning/src/main/java/jar005/simplehunts/algorithm/Learner.java)
 
