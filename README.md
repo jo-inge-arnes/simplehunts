@@ -4,6 +4,7 @@ The Java-projects in this repository were originally written as part of a course
 https://github.com/mr-speak/simplehunts/blob/master/Assignment%202%20-%20Hunt%26%23039%3Bs%20algorithm%20-%20Final%20Version.pdf
 
 There are several Java-programs in the repository. The main class for the most interesting one, which uses Hunt's Algorithm, can be found here:
+
 https://github.com/mr-speak/simplehunts/blob/master/learner-client/src/main/java/jar005/simplehunts/client/LearnerClient.java
 
 It reads a CSV-file with training data, and produces a JSON-structure as output. This JSON-structure is a decision tree, that can be read and used in other programs.
