@@ -3,7 +3,7 @@ The Java-projects in this repository were originally written as part of a course
 
 [Assignment PDF](Assignment%202%20-%20Hunt%26%23039%3Bs%20algorithm%20-%20Final%20Version.pdf)
 
-There are several Java-programs in the repository. The main class for the most interesting one, that uses Hunt's Algorithm, can be found here:
+There are several Java-programs in the repository. The main class for the most interesting one, which uses Hunt's Algorithm, can be found here:
 
 [LearnerClient](learner-client/src/main/java/jar005/simplehunts/client/LearnerClient.java)
 
