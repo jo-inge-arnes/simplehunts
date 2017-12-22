@@ -3,16 +3,16 @@ The Java-projects in this repository were originally written as part of a course
 
 [Assignment PDF](Assignment%202%20-%20Hunt%26%23039%3Bs%20algorithm%20-%20Final%20Version.pdf)
 
-There are several Java-programs in the repository. The main class for the most interesting one, which uses Hunt's Algorithm, can be found here:
+There are several Java-programs in the repository. The main class for the most interesting one, that uses Hunt's Algorithm, can be found here:
 
-[Learner Client](learner-client/src/main/java/jar005/simplehunts/client/LearnerClient.java)
+[LearnerClient](learner-client/src/main/java/jar005/simplehunts/client/LearnerClient.java)
 
 It reads a CSV-file with training data, and produces a JSON-structure as output. This JSON-structure is a decision tree, that can be read and used in other programs.
 
 The implementation only handles boolean (true/false) values.
 
 #### Tip
-The main method of [Learner Client](learner-client/src/main/java/jar005/simplehunts/client/LearnerClient.java) calls methods on the [Learner class](learning/src/main/java/jar005/simplehunts/algorithm/Learner.java). The main method of the client in combination with the Learner class, is a good place to start reading to understand the implementation. Note that the class resides in a separate library project, and can easily be used in other Java-applications.
+The main method of [LearnerClient](learner-client/src/main/java/jar005/simplehunts/client/LearnerClient.java) calls methods on the [Learner-class](learning/src/main/java/jar005/simplehunts/algorithm/Learner.java). The main method of the client in combination with the Learner-class is a good place to start reading to understand the implementation. Note that the class resides in a separate library project, and it can easily be used in other Java-applications.
 
 #### Prerequisites for building the project
 
