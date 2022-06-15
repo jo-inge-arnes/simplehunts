@@ -1,5 +1,5 @@
 #### A simple implementation of Hunt's Algorithm
-The Java-projects in this repository were originally written as part of a course. We were free to choose what to implement, so I implemented Hunt's algorithm from a brief description of the algorithm found in a book. The report can be found here:
+The Java-projects in this repository were originally written as part of a course. We were free to choose what to implement, so I implemented Hunt's algorithm from a brief description of the algorithm found in a book. The report, which is written in the style of a paper, can be found here:
 
 [Assignment PDF](Assignment%202%20-%20Hunt%26%23039%3Bs%20algorithm%20-%20Final%20Version.pdf)
 
